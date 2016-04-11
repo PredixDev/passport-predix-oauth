@@ -19,7 +19,7 @@ The [Predix platform](https://www.predix.io/) provides [UAA as a service](https:
 
 ## Usage
 
-### COMING SOON: Detailed Usage in a Node.js starter application
+### COMING SOON: Detailed Example in a Node.js starter application
 ```javascript
 var cfStrategy = new CloudFoundryStrategy({
  	clientID: CLIENT_ID,
