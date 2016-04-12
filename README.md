@@ -14,7 +14,7 @@ with [Predix UAA service](https://www.predix.io/services/service.html?id=1172) u
 The [Predix platform](https://www.predix.io/) provides [UAA as a service](https://www.predix.io/services/service.html?id=1172) for developers to authenticate their application users. As a Predix platform user, you can secure access to your application by obtaining a UAA instance from the Cloud Foundry marketplace and configuring it to authenticate trusted users. 
 
 ## Installation
-
+    $ git clone https://github.com/PredixDev/passport-predix-oauth.git
     $ npm install passport-predix-oauth
 
 ## Usage
