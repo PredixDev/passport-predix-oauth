@@ -17,9 +17,9 @@ The [Predix platform](https://www.predix.io/) provides [UAA as a service](https:
     $ git clone https://github.com/PredixDev/passport-predix-oauth.git
     $ npm install passport-predix-oauth
 
-## Usage
-
 ### COMING SOON: Detailed Example in a Node.js starter application
+
+## Usage
 ```javascript
 var cfStrategy = new CloudFoundryStrategy({
  	clientID: CLIENT_ID,
