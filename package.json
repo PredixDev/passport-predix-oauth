@@ -1,0 +1,37 @@
+{
+  "name": "passport-predix-oauth",
+  "version": "0.1.2",
+  "description": "Predix UAA authentication strategy for Passport.",
+  "main": "./lib/passport-predix-oauth",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "0.1.x",
+    "https-proxy-agent": "^1.0.0"
+  },
+  "devDependencies": {
+    "vows": "0.6.x"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "keywords": [
+    "passport",
+    "cloudfoundry",
+    "auth",
+    "authn",
+    "authentication",
+    "identity",
+    "oauth2",
+    "oauth 2.0",
+    "predix"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "Katya Talluri",
+      "email": "katyayani.talluri@ge.com",
+      "name": "Greg Stroup",
+      "email": "gregory.stroup@ge.com"
+    }
+  ]
+}
