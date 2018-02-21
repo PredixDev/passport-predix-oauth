@@ -4,7 +4,7 @@
 [Passport](http://passportjs.org/docs) strategy for authenticating
 with [Predix UAA service](https://www.predix.io/services/service.html?id=1172) using the OAuth 2.0 API.
 
-This strategy is similar to the CloudFoundry strategy, but has several benefits when using Predix UAA.
+This strategy is similar to the CloudFoundry strategy but has several benefits when using Predix UAA.
 
 * Support for proxy environment variables because many devs are behind a corporate proxy.
 * Simplified configuration.
@@ -43,3 +43,14 @@ passport.use(predixStrategy);
 In most cases, just setting the uaaURL is all you need. The strategy will append paths to this URL for authorization, token, and user profile.
 If desired, you can pass in those three values instead of uaaURL: authorizationURL, tokenURL, and userProfileURL.
 (If set, uaaURL will override the others.)
+
+# Copyright
+Copyright &copy; 2015, 2016, 2017 GE Global Research. All rights reserved.
+
+The copyright to the computer software herein is the property of
+GE Global Research. The software may be used and/or copied only
+with the written permission of GE Global Research or in accordance
+with the terms and conditions stipulated in the agreement/contract
+under which the software has been supplied.
+
+[![Analytics](https://ga-beacon.appspot.com/UA-82773213-1/passport-predix-oauth/readme?pixel)](https://github.com/PredixDev)
