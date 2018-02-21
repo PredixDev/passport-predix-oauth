@@ -3,10 +3,6 @@
   "version": "0.1.15",
   "description": "Predix UAA authentication strategy for Passport.",
   "main": "./lib/passport-predix-oauth",
-  "scripts": {
-    "version": "git add package.json && git commit -m \"version bump\"",
-    "postversion": "git push"
-  },
   "dependencies": {
     "pkginfo": "0.2.x",
     "passport-oauth": "0.1.x",
