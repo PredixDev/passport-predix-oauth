@@ -1,6 +1,6 @@
 {
   "name": "passport-predix-oauth",
-  "version": "0.1.44",
+  "version": "0.1.47",
   "description": "Predix UAA authentication strategy for Passport.",
   "main": "./lib/passport-predix-oauth",
   "dependencies": {
